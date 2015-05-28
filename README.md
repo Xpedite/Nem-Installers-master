@@ -161,6 +161,9 @@ Please feel free to contribute to this repository.
 The scripts are Licensed under 3-clause BSD. 
 
 **Disclaimer**  
+
+This script has been reuploaded against the owners wishes, as it was originally removed due to a disagreement in the direction of NEM. Ownership belongs to JadedJack, and has only been reuploaded because the script is specific to, and only to, NEM as well as the original repo being open source.
+
 This script is community maintained and any upgrade/update of the nem Software might brake the scripts
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
