@@ -103,6 +103,8 @@ sudo iptables -A INPUT -m connlimit --connlimit-above 20 -j DROP
 sudo iptables -A INPUT -m hashlimit --hashlimit-name LIMIT --hashlimit-burst 20 --hashlimit-above 1/second --hashlimit-mode srcip --hashlimit-htable-expire 10000 -j DROP
 sudo iptables -A INPUT -p icmp -m icmp --icmp-type 8 -m state --state NEW -j ACCEPT
 sudo iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 7890 -j ACCEPT
+sudo iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 7880 -j ACCEPT
+sudo iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 7778 -j ACCEPT
 sudo iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
 sudo iptables -A OUTPUT -p udp --dport 123 -j ACCEPT
 sudo iptables -A INPUT -p udp --sport 123 -j ACCEPT
